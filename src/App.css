@@ -1,38 +1,70 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: rgba(121, 30, 74, 0.727);
+}
+
 .App {
-  text-align: center;
+	width: 1000px;
+	margin: 50px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form.login,
+form.register {
+	min-width: 500px;
+	text-align: center;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 4px 5px 5px 1px rgba(0, 0, 0, 0.75);
+	border-radius: 3px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-group {
+	margin: 15px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-field {
+	height: 35px;
+	min-width: 265px;
+	font-size: 22px;
 }
 
-.App-link {
-  color: #61dafb;
+label {
+	display: block;
+	margin-bottom: 3px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button {
+	background-color: #4caf50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+button:disabled {
+	background-color: grey;
+	cursor: not-allowed;
+}
+
+.error-msg {
+	color: red;
+	margin: 5px 0;
+	font-weight: bold;
+}
+
+.App h5 {
+	margin-top: 3%;
 }

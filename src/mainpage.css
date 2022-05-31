@@ -1,0 +1,45 @@
+.books {
+	width: 100vw;
+}
+header {
+	/* background-image: url('/src/images/bg.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 650px; */
+	display: block;
+	text-align: center;
+}
+
+header h1 {
+	display: block;
+	z-index: 1;
+	top: 45%;
+	left: 38%;
+
+	position: absolute;
+	color: aliceblue;
+}
+
+header button.explore {
+	display: block;
+	z-index: 1;
+	top: 60%;
+	left: 45%;
+	position: absolute;
+}
+.book {
+	display: inline-block;
+}
+
+footer {
+	background-color: rgb(255, 253, 255);
+	height: 150px;
+	text-align: center;
+}
+footer h5 {
+	padding-top: 5%;
+}
+
+.books {
+	background: rgba(121, 30, 74, 0.727);
+}
