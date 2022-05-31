@@ -18,7 +18,8 @@ body {
 }
 
 form.login,
-form.register {
+form.register,
+form.contact {
 	min-width: 500px;
 	text-align: center;
 	padding: 20px;
